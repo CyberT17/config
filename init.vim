@@ -63,6 +63,9 @@ Plug 'mhinz/vim-startify'
 
 Plug 'Yggdroot/indentLine'
 
+Plug 'neovim/nvim-lspconfig'
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 
 let g:airline_theme = 'spaceduck'
